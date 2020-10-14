@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">SISAP</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">USUARIO</string>
+    <string name="prompt_password">CONTRASEÑA</string>
+    <string name="action_sign_in">INICIAR SESION</string>
+    <string name="action_sign_in_short">Sesion iniciada</string>
+    <string name="welcome">"Bienvenido a SISAP"</string>
+    <string name="invalid_username">Usuario invalido</string>
+    <string name="invalid_password">Contraseña > 5 caracteres</string>
+    <string name="login_failed">"Inicio de sesion fallido"</string>
+    <string name="textview">Sistema Integral para la Seleccion y Asignación de Practicas 2020</string>
+    <string name="tituloApp">SISAP</string>
+    <string name="title_activity_main">Principal</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="nav_header_title">SISAP</string>
+    <string name="nav_header_subtitle">jose.ibanez@cecar.edu.co</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="action_settings">Configuración app</string>
+    <string name="menu_label_modulo_configuracion">Configuración app</string>
+    <string name="menu_label_modulo_contactoAdmin">Contacto Admin</string>
+    <string name="menu_label_main_acercade">Acerca de</string>
+
+
+    <!--String relacionados con modulo fragment_home -->
+    <string name="txt_agregar_datos">MODULO AGREGAR DATOS</string>
+    <string name="txtDescripcion">Los modulos contenidos en esta sección se habilitan y deshabilitan segun sea es caso, administrador=on, estudiante=off</string>
+    <string name="txtModulo2">MODULO GESTION</string>
+
+
+    <!--String relacionados con modulo fragmen_pre_inscripcion -->
+    <string name="registrar_aspirante">REGISTRAR ASPIRANTE</string>
+
+
+    <!--String relacionados con modulo fragmen_gestionar_estudiante -->
+    <string name="titulo_gestionar_estudiante">Gestionar Estudiante</string>
+
+
+    <!--String relacionados con modulo fragmen_aplicacion_ofertas -->
+    <string name="txt_titulo_aplicacion_vacante">Aplicación a vacantes (en este modulo podras consultar las vacantes a las que te has pre-inscrito hasta el momento)</string>
+
+    <!--String relacionados con modulo fragmen_inscribirse_una_oferta -->
+    <string name="txt_titulo_inscribirse_oferta">Ofertas disponibles para aplicar</string>
+
+
+    <string name="menu_home">Inicio</string>
+    <string name="pre_inscripcion">Pre-inscripcion</string>
+    <string name="menu_ofertas">Ofertas</string>
+    <string name="menu_ofertas_aplicacion">Aplicacion Ofertas</string>
+
+
+    <string name="home_second">Home Second</string>
+    <string name="imgLogo">logo_cecar</string>
+    <string name="txtId">Aqui numero de ID</string>
+    <string name="txtDesHome">Grupo al que se encuentra matriculado</string>
+    <string name="txtPractica">Practica profesional</string>
+    <string name="txtJornada">Jornada Diurna</string>
+    <string name="txtNombre">Jose Felix Ibañez Romero</string>
+    <string name="txtRegistroPeriodo">Registros en periodo actual y siguiente estado</string>
+    <string name="txtCod_materia">01164</string>
+    <string name="txtPeriodo">20202</string>
+    <string name="txtEstado">MATRICULADO</string>
+    <string name="usuario">Usuario</string>
+    <string name="contacto">Contacto</string>
+    <string name="txtNombrePractica">Nombre de la Practica</string>
+    <string name="edtNombre">Nombre</string>
+    <string name="edtSegundoNombre">Segundo Nombre</string>
+    <string name="edtApellido">Apellido</string>
+    <string name="report_planned_date">Fecha Nacimiento</string>
+    <string name="txtModuloPre_inscripcion">Pre-inscripcion a practicas</string>
+    <string name="name">Nombre</string>
+    <string name="nameLast">Segundo Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="email">E-Mail</string>
+    <string name="edttelefono">Telefono</string>
+    <string name="edtfechanac">Fecha Nacimiento</string>
+    <string name="txtGenero">Genero</string>
+    <string name="eps">EPS</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="estado_civil">Estado Civil</string>
+    <string name="semestre">Semestre</string>
+    <string name="tipo_de_eps">Tipo de EPS</string>
+    <string name="periodo">Periodo</string>
+    <string name="estrato">Estrato</string>
+    <string name="switchNotificaion">Habilitar Mensajes de difusión</string>
+    <string name="txtTitulo">Modulo de Pre-inscripción a SISAP</string>
+    <string name="txtEstadoEnlinea">Online</string>
+    <string name="agregar_ofertasn_de_convenio">Agregar Convenio</string>
+    <string name="agregar_vacantes">Agregar Vacantes</string>
+    <string name="menu_label_muestra">Muestreo datos</string>
+    <string name="menu_label_modulo_pre_inscripcion">Modulo Pre-Inscripción</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_settings">Configuracion</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="perfil_docente">Perfil Docente</string>
+    <string name="buttonAgregarConvenio">Agregar Convenio</string>
+    <string name="btnAgregarOferta">Agregar Oferta</string>
+    <string name="imgPerfilDocente">Perfil Docente</string>
+    <string name="btnGestionarEstudiantes">Gestionar Estudiantes</string>
+    <string name="txtConocermas">Conocer mas</string>
+    <string name="btnAgregarCoordinaro">Agregar Coordinador de practicas</string>
+    <string name="btnGestionarCoordinadores">Gestionar Cordinadores</string>
+    <string name="txt_titulo_agregar_cordinador">Agregar Cordinador</string>
+    <string name="txt_titulo_gestionar_cordinador">Gestionar Cordinador</string>
+
+
+</resources>

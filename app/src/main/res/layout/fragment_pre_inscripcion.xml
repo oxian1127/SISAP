@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistas.ui.preinscripcion.PreInscripcionFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                style="@android:style/Widget.Holo.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/txtTitulo"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Spinner
+                android:id="@+id/spinPracticas"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/spinPracticas"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/edtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edtNombre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtSegundoNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edtSegundoNombre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edtApellido"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtLabelFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fecha_de_nacimiento" />
+
+            <EditText
+                android:id="@+id/edtFechaExpedicion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="DD/MM/AAAA"
+                android:inputType="date" />
+
+            <Spinner
+                android:id="@+id/spinEstadoCivil"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/estadoCivil"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/edtTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edttelefono"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/txtFechaNac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edtfechanac" />
+
+            <EditText
+                android:id="@+id/edtFechaNac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="DD/MM/AAAA"
+                android:inputType="date" />
+
+            <Spinner
+                android:id="@+id/spinGenero"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/genero"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spinEPS"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/eps"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spinTipoEps"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/tipoEPS"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/txtSemestre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/semestre" />
+
+            <Spinner
+                android:id="@+id/spinSemestre"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/semestre"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/txtPeriodo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/periodo" />
+
+            <Spinner
+                android:id="@+id/spinPeriodo"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/periodo"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/txtEstrato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/estrato" />
+
+            <Spinner
+                android:id="@+id/spinStrato"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/estrato"
+                android:spinnerMode="dialog" />
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                style="@android:style/Widget.Holo.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/registrar_aspirante" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

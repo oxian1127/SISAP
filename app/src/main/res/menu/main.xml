@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="@string/menu_label_modulo_configuracion">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_settings"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:orderInCategory="100"
+                    android:title="@string/action_settings"
+                    app:showAsAction="never" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/menu_label_modulo_contactoAdmin">
+        <menu>
+            <group>
+
+                <item
+                    android:id="@+id/menuAcerca_de"
+                    android:icon="@drawable/ic_baseline_import_contacts_24"
+                    android:title="@string/menu_label_main_acercade" />
+
+                <item
+                    android:id="@+id/menuContacto"
+                    android:icon="@drawable/ic_baseline_contacto"
+                    android:title="@string/contacto" />
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
